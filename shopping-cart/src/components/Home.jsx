@@ -22,11 +22,11 @@ import { Redirect } from 'react-router-dom';
     render(){
         const {getData, getAuth} = this.context;
         let data = getData()
-        let auth = getAuth()
-        console.log(auth)
-        if(!auth ){
-            return <Redirect to="/login" />
-        }
+        // let auth = getAuth()
+        // console.log(auth)
+        // if(!auth ){
+        //     return <Redirect to="/login" />
+        // }
          return(
             <div>
                 <select onChange={this.handleChange}>
@@ -47,7 +47,7 @@ import { Redirect } from 'react-router-dom';
                             return true
                     }).map((ele,index)=>{
                         return(
-                            <SingleItem key ={index} data={ele}/>
+                            <SingleItem key ={index} data={ele} history={this.props.history}/>
                         )
                     })
                 }

@@ -1,11 +1,23 @@
 import React, {useContext} from "react";
 import {AppContext} from "../AppProvider";
-import { Link } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
 
 function SingleItem(props){
     const {data}=props
     const item=useContext(AppContext)
-    const {addTocart}=item
+    const {addTocart, getAuth}=item
+
+    // const loginCheck = (payload) => {
+    //     console.log("loginCheck", getAuth(), props.history)
+    //     if(getAuth()){
+    //         return addTocart(payload)
+    //     }
+    //     else
+    //     {
+    //         return (<Redirect to={props.history.go("/login")} />)
+    //         // console.log("else")
+    //     }    
+    // }
     return(
         <div className="container">
              <table className="table table-hover table-dark">

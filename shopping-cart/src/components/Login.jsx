@@ -26,7 +26,7 @@ class Login extends Component{
         if(auth){
             return <Redirect to="/" />
         }
-
+        console.log(auth)
         return(
            <div className="container w-50">
                 <div>
