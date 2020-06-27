@@ -1,54 +1,17 @@
 [
-    {
-        "id":1,
-        "name":"T-Shirts",
-        "image":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/1997244/2017/9/6/11504686918599-Roadster-Men-Grey-Melange-Printed-Round-Neck-T-shirt-701504686918389-1.jpg",
-        "COD":true,
-        "menu":[ 
-            {"id":11, "title":"Dillinger", "price":395, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/7228316/2019/1/30/a9ad7508-ade4-43fb-9308-93423508d4f51548844555738-DILLINGER-Men-Navy-Blue-Colourblocked-Round-Neck-T-shirt-161-2.jpg"},
-            {"id":12, "title":"Mast & Harbour", "price":359, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/3082387/2018/4/12/11523515363161-Mast--Harbour-Men-Tshirts-7751523515362997-1.jpg"},
-            {"id":13, "title":"Rigo", "price":199, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/7480573/2018/9/25/1c13b5f2-37db-4632-b206-99b40bbb8bf51537864626551-Rigo-Blue-With-Navy-Back-Yoke-Cuff-And-Bottom-Tshirt-Full-5651537864626357-1.jpg"},
-            {"id":14, "title":"Roadster", "price":499, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2275305/2018/2/24/11519451806100-Roadster-Men-Blue-Printed-Round-Neck-T-shirt-3041519451805915-1.jpg"},
-            {"id":15, "title":"Levis", "price":849, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/11165708/2020/2/13/3616b6b1-c8aa-4f91-a318-a95608f0dc341581567189236-Levis-Men-Tshirts-4551581567187547-1.jpg"}
-        ]
-    },
-    {
-        "id":2,
-        "name":"Jeans",
-        "image":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/7139512/2018/9/21/52ac3343-f859-4ac7-92f1-3d2451fe92951537510763979-Roadster-Men-Black-Skinny-Fit-Mid-Rise-Clean-Look-Stretchable-Jeans-1421537510763791-1.jpg",
-        "COD":false,
-        "menu":[ 
-            {"id":21, "title":"WROGN", "price":1559, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/11359044/2020/3/2/2bcde16a-ce3f-4adc-b58d-1acfef20cab61583138189510-WROGN-Men-Jeans-6221583138187216-1.jpg"},
-            {"id":22, "title":"HIGHLANDER", "price":999, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2290020/2018/2/7/11518001291442-HIGHLANDER-Men-Black-Slim-Fit-Mid-Rise-Clean-Look-Stretchable-Jeans-8231518001291181-1.jpg"},
-            {"id":23, "title":"GAS", "price":5391, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/7154351/2018/9/19/4f430159-0dd8-4398-bc65-ebf325b624d11537342053152-GAS-Men-Blue-Slim-Fit-Mid-Rise-Clean-Look-Stretchable-Jeans-7921537342052981-1.jpg"},
-            {"id":24, "title":"WROGN", "price":1559, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2477106/2018/5/14/bb57aa53-ef57-4546-aaa3-59a45a49cac11526281108526-WROGN-Men-Blue-Slim-Fit-Mid-Rise-Mildly-Distressed-Stretchable-Jeans-2161526281106904-1.jpg"},
-            {"id":25, "title":"Roadster", "price":909, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/8629551/2019/2/18/cc657436-c58c-4a78-a51c-8f966857ddd01550489916594-Roadster-Men-Blue-Slim-Fit-Mid-Rise-Clean-Look-Jeans-4191550-1.jpg"}
-        ]
-    },
-    {
-        "id":3,
-        "name":"Casual Shirts",
-        "image":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2353050/2018/12/10/46543051-9149-4f04-8860-a1ccb24e456e1544421877619-Roadster-Time-Travlr-Men-Maroon--Black-Regular-Fit-Checked-C-1.jpg",
-        "COD":true,
-        "menu":[ 
-            {"id":31, "title":"HIGHLANDER", "price":645, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/1272487/2016/4/8/11460104200751-Highlander-Blue-Slim-Fit-Denim-Shirt-7421460104200117-1.jpg"},
-            {"id":32, "title":"ROADSTER", "price":635, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/10398101/2019/11/19/ce829780-dc67-4812-bb96-e54e21aac99c1574161238664-Roadster-Men-Shirts-171574161236875-1.jpg"},
-            {"id":33, "title":"WROGN", "price":1200, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/11361162/2020/3/2/f7f9cb7e-fdfe-48a6-93d8-42a1af85170c1583139472803-WROGN-Men-Shirts-2941583139470515-1.jpg"},
-            {"id":34, "title":"LEVIS", "price":1399, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/11944446/2020/6/18/d3d3085a-d2c4-4b2e-9288-7ae366b7e9bc1592458960613-Levis-Men-Shirts-5011592458958165-1.jpg"},
-            {"id":35, "title":"LOCOMOTIVE", "price":745, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/6/13/ecb356f8-a610-45e7-9ee8-b29f8adf1f741560388707570-1.jpg"}
-        ]
-    },
-    {
-        "id":4,
-        "name":"Casual Trousers",
-        "image":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2033152/2019/3/7/83168dd0-da64-45c8-8434-23e353d094421551936377699-WROGN-Men-Charcoal-Grey--Black-Camouflage-Printed-Joggers-81-1.jpg",
-        "COD":true,
-        "menu":[ 
-            {"id":41,  "title":"WROGN", "price":2245, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/11344168/2020/6/17/eb1bef87-55bb-48d4-9036-bfc0fe248cf51592375329627-HERENOW-Men-Teal-Blue-Slim-Fit-Solid-Chinos-7471592375327729-1.jpg"},
-            {"id":42,  "title":"HIGHLANDER", "price":699, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/3077248/2018/3/9/11520575841645-na-1781520575841367-1.jpg"},
-            {"id":43,  "title":"ROADSTER", "price":1085, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/11201226/2020/3/21/1e52d43f-187a-44bc-ae50-62424fdf163e1584774111319-Roadster-Men-Trousers-4761584774109404-1.jpg"},
-            {"id":44,  "title":"BYFORD", "price":1299, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/3/21/1031021b-811e-4a71-b0be-43ad041d714a1584742396634-6.jpg"},
-            {"id":45,  "title":"MANGO MAN", "price":3445, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/11842362/2020/6/3/544a6a59-1257-4b79-b068-6cdd5cad477b1591175238790TrousersMANGOMANMenJumpsuitMANGOWomenSkirtsMANGOWomenTrouser1.jpg"}
-        ]
-    }
+    {"id":11,"name":"T-Shirts","COD":true, "title":"Dillinger", "price":395, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/7228316/2019/1/30/a9ad7508-ade4-43fb-9308-93423508d4f51548844555738-DILLINGER-Men-Navy-Blue-Colourblocked-Round-Neck-T-shirt-161-2.jpg"},
+    {"id":12,"name":"T-Shirts","COD":true, "title":"Mast & Harbour", "price":359, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/3082387/2018/4/12/11523515363161-Mast--Harbour-Men-Tshirts-7751523515362997-1.jpg"},
+    {"id":13,"name":"T-Shirts","COD":true, "title":"Rigo", "price":199, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/7480573/2018/9/25/1c13b5f2-37db-4632-b206-99b40bbb8bf51537864626551-Rigo-Blue-With-Navy-Back-Yoke-Cuff-And-Bottom-Tshirt-Full-5651537864626357-1.jpg"},
+    {"id":14,"name":"T-Shirts","COD":true, "title":"Roadster", "price":499, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2275305/2018/2/24/11519451806100-Roadster-Men-Blue-Printed-Round-Neck-T-shirt-3041519451805915-1.jpg"},
+    {"id":15,"name":"T-Shirts","COD":true, "title":"Levis", "price":849, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/11165708/2020/2/13/3616b6b1-c8aa-4f91-a318-a95608f0dc341581567189236-Levis-Men-Tshirts-4551581567187547-1.jpg"},
+    {"id":21,"name":"Jeans", "COD":false, "title":"WROGN", "price":1559, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/11359044/2020/3/2/2bcde16a-ce3f-4adc-b58d-1acfef20cab61583138189510-WROGN-Men-Jeans-6221583138187216-1.jpg"},
+    {"id":22,"name":"Jeans", "COD":false, "title":"HIGHLANDER", "price":999, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2290020/2018/2/7/11518001291442-HIGHLANDER-Men-Black-Slim-Fit-Mid-Rise-Clean-Look-Stretchable-Jeans-8231518001291181-1.jpg"},
+    {"id":23,"name":"Jeans", "COD":false, "title":"GAS", "price":5391, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/7154351/2018/9/19/4f430159-0dd8-4398-bc65-ebf325b624d11537342053152-GAS-Men-Blue-Slim-Fit-Mid-Rise-Clean-Look-Stretchable-Jeans-7921537342052981-1.jpg"},
+    {"id":24, "name":"Jeans", "COD":false,"title":"WROGN", "price":1559, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2477106/2018/5/14/bb57aa53-ef57-4546-aaa3-59a45a49cac11526281108526-WROGN-Men-Blue-Slim-Fit-Mid-Rise-Mildly-Distressed-Stretchable-Jeans-2161526281106904-1.jpg"},
+    {"id":25,"name":"Jeans", "COD":false, "title":"Roadster", "price":909, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/8629551/2019/2/18/cc657436-c58c-4a78-a51c-8f966857ddd01550489916594-Roadster-Men-Blue-Slim-Fit-Mid-Rise-Clean-Look-Jeans-4191550-1.jpg"},
+    {"id":31, "name":"Casual Shirts","COD":true, "title":"HIGHLANDER", "price":645, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/1272487/2016/4/8/11460104200751-Highlander-Blue-Slim-Fit-Denim-Shirt-7421460104200117-1.jpg"},
+    {"id":32, "name":"Casual Shirts","COD":true, "title":"ROADSTER", "price":635, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/10398101/2019/11/19/ce829780-dc67-4812-bb96-e54e21aac99c1574161238664-Roadster-Men-Shirts-171574161236875-1.jpg"},
+    {"id":33, "name":"Casual Shirts","COD":true, "title":"WROGN", "price":1200, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/11361162/2020/3/2/f7f9cb7e-fdfe-48a6-93d8-42a1af85170c1583139472803-WROGN-Men-Shirts-2941583139470515-1.jpg"},
+    {"id":34, "name":"Casual Shirts","COD":true, "title":"LEVIS", "price":1399, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/11944446/2020/6/18/d3d3085a-d2c4-4b2e-9288-7ae366b7e9bc1592458960613-Levis-Men-Shirts-5011592458958165-1.jpg"},
+    {"id":35, "name":"Casual Shirts","COD":true, "title":"LOCOMOTIVE", "price":745, "src":"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/6/13/ecb356f8-a610-45e7-9ee8-b29f8adf1f741560388707570-1.jpg"}
 ]

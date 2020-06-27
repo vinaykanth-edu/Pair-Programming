@@ -8,11 +8,11 @@ import Order from '../components/Order';
 const Routes = () =>{
     return(
         <Switch>
-            <Route path="/" render = { ()=><Home /> } />
-            <Route path="/product" render = { ()=><Product /> } />
-            <Route path="/product/:id" render = { (props)=><Product {...props}/> } />
-            <Route path="/cart" render = { ()=><Cart /> } />
-            <Route path="/order" render = { ()=><Order /> } />
+            <Route exact path="/" render = { ()=><Home /> } />
+            <Route exact path="/product" render = { ()=><Product /> } />
+            <Route exact path="/product/:id" render = { (props)=><Product {...props}/> } />
+            <Route exact path="/cart" render = { ()=><Cart /> } />
+            <Route exact path="/order" render = { ()=><Order /> } />
         </Switch>
     )
 } 
