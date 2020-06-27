@@ -4,6 +4,7 @@ import Home from '../components/Home';
 import Product from '../components/Product';
 import Cart from '../components/Cart';
 import Order from '../components/Order';
+import Login from '../components/Login';
 
 const Routes = () =>{
     return(
@@ -13,6 +14,7 @@ const Routes = () =>{
             <Route exact path="/product/:id" render = { (props)=><Product {...props}/> } />
             <Route exact path="/cart" render = { ()=><Cart /> } />
             <Route exact path="/order" render = { ()=><Order /> } />
+            <Route exact path="/login" render = { ()=><Login /> } />
         </Switch>
     )
 } 

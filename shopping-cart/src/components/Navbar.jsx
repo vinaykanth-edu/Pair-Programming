@@ -21,6 +21,9 @@ function Navbar(props){
                     <li className="nav-item active">
                         <Link to="/order" className="nav-link" >Order</Link>
                     </li>
+                    <li className="nav-item active">
+                        <Link to="/login" className="nav-link" >Login</Link>
+                    </li>
                 </ul>
             </div>
         </nav>

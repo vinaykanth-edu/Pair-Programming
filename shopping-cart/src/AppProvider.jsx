@@ -9,7 +9,12 @@ class AppProvider extends Component{
         this.state = {
             productData:data,
             cartArray:[],
-            orderArray:[]
+            orderArray:[],
+            user:{
+                username:"admin",
+                password:"admin"
+            },
+            isAuth:null
         }
     }
     getData = () => {
@@ -22,6 +27,10 @@ class AppProvider extends Component{
 
     getOrder = () => {
         return this.state.orderArray
+    }
+
+    getAuth = () => {
+        return this.state.isAuth
     }
 
     addTocart=(payload)=>{
@@ -37,13 +46,27 @@ class AppProvider extends Component{
         })
     }
 
+    loginClick = (payload) => {
+        console.log(payload)
+        const {name, password} = payload;
+        if(name==this.state.user.username && password == this.state.user.password){
+            this.setState({
+                isAuth : true
+            })
+        }
+    }
+
+
+
     render(){
         const method = {
             getData : this.getData,
             addTocart:this.addTocart,
             getCart:this.getCart,
             addToOrder:this.addToOrder,
-            getOrder:this.getOrder
+            getOrder:this.getOrder,
+            loginClick:this.loginClick,
+            getAuth:this.getAuth
         }
         return(
             <AppContext.Provider value={ method }>

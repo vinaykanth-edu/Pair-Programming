@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { AppContext } from '../AppProvider';
 import SingleItem from "../components/SingleItem";
+import { Redirect } from 'react-router-dom';
 
  export default class Home extends Component{
      constructor(props){
@@ -15,9 +16,17 @@ import SingleItem from "../components/SingleItem";
             optioName:e.target.value
          })
      }
+     componentWillReceiveProps(props){
+        // if(this.props.)
+     }
     render(){
-        const {getData} = this.context;
+        const {getData, getAuth} = this.context;
         let data = getData()
+        let auth = getAuth()
+        console.log(auth)
+        if(!auth ){
+            return <Redirect to="/login" />
+        }
          return(
             <div>
                 <select onChange={this.handleChange}>
